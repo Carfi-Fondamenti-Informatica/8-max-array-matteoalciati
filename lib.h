@@ -3,4 +3,4 @@
 
 #endif //MAIN_CPP_LIB_H
 
-float funzione (float , int);
+float funzione (float numeri[],int n);
