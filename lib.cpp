@@ -10,7 +10,7 @@ float funzione(float numeri[],int n){
         k=f;
         f=numeri[i];
         i++;
-        if(f>k){
+        if(f>e){
             e=f;
         }
     }
