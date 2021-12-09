@@ -1,7 +1,8 @@
 #include <iostream>
-#include "lib.h"
 
 using namespace std;
+
+#include "lib.h"
 
 
 int main() {
@@ -11,18 +12,22 @@ int main() {
     int c=0;
     int n=0;
     int h=0;
-    float numeromax=0;
     cin >> n;
 
     float numeri [n];
-   
-  while (i<n){
+
+
+    while (i<n){
         c=b;
         cin >> b;
         numeri[i]=b;
         i++;
     }
-  funzione(numeri, n);
-cout << funzione ;
+
+
+    funzione(numeri, n);
+
+
+    cout << funzione(numeri, n) ;
     return 0;
 }
