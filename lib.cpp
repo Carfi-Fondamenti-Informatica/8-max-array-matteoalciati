@@ -9,7 +9,7 @@ float funzione(float numeri[],int n){
 
     while(i < n){
         k=f;
-        numeri[i]=f;
+        f=numeri[i];
         i++;
         if(f>k){
             e=f;
