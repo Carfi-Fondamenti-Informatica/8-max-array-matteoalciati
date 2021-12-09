@@ -1,6 +1,5 @@
 #include "lib.h"
 
-
 float funzione(float numeri[],int n){
     int i=0;
     float f=0;
@@ -17,4 +16,3 @@ float funzione(float numeri[],int n){
     }
     return e;
 }
-
